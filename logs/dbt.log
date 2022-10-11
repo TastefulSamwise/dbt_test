@@ -1,0 +1,40 @@
+
+
+============================== 2022-10-10 20:25:26.097509 | 9ffcb3a2-84c3-477b-9a27-931ae3d06fb4 ==============================
+[0m20:25:26.097509 [info ] [MainThread]: Running with dbt=1.2.2
+[0m20:25:26.098511 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\sam.nickolls\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m20:25:26.098511 [debug] [MainThread]: Tracking: tracking
+[0m20:25:26.129432 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B919877A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B919813550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B919813A30>]}
+[0m20:25:26.131978 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\sam.nickolls\.dbt
+[0m20:25:31.519468 [debug] [MainThread]: Starter project path: C:\Users\sam.nickolls\AppData\Roaming\Python\Python310\site-packages\dbt\include\starter_project
+[0m20:25:35.922800 [info ] [MainThread]: No sample profile found for sqlserver.
+[0m20:25:35.924050 [info ] [MainThread]: 
+Your new dbt project "test" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:25:35.925055 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B919813A60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B919813490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B919877C10>]}
+[0m20:25:35.926057 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-10 20:41:18.248731 | 02c2030b-73a0-46b3-81e6-2899438baaad ==============================
+[0m20:41:18.248731 [info ] [MainThread]: Running with dbt=1.2.2
+[0m20:41:18.248731 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\sam.nickolls\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': True, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m20:41:18.249731 [debug] [MainThread]: Tracking: tracking
+[0m20:41:18.283594 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000241FAE42E00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000241FAE43B20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000241FAE43520>]}
+[0m20:41:18.284397 [info ] [MainThread]: To view your profiles.yml file, run:
+
+start C:\Users\sam.nickolls\.dbt
+[0m20:41:18.284397 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000241FAE43B20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000241FAE43520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000241FAE43700>]}
+[0m20:41:18.284397 [debug] [MainThread]: Flushing usage events
